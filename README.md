@@ -103,8 +103,8 @@ The executable can be found in the build/release/bin folder.
 
 7. Go into the repository
 
+  `git clone https://github.com/fonero-project/fonero`  
   `cd fonero-gui`
-  ` git clone https://github.com/fonero-project/fonero`
 
 8. Start the build
 
