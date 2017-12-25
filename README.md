@@ -25,6 +25,7 @@ Copyright (c) 2014-2017, The Monero Project
 
 3. Go into the repository
 
+  	`git clone https://github.com/fonero-project/fonero`
 	`cd fonero-gui`
 
 4. Install the GUI dependencies
@@ -61,6 +62,7 @@ Copyright (c) 2014-2017, The Monero Project
 
   - For Ubuntu and Mint
 
+  	` git clone https://github.com/fonero-project/fonero`
 	`./build.sh`
 
   - For Gentoo
@@ -102,6 +104,7 @@ The executable can be found in the build/release/bin folder.
 7. Go into the repository
 
   `cd fonero-gui`
+  ` git clone https://github.com/fonero-project/fonero`
 
 8. Start the build
 
@@ -172,6 +175,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
     ```
     cd fonero-gui
     export PATH=$(ls -rd /c/Qt/5.[6,7,8]/mingw53_32/bin | head -1):$PATH
+    git clone https://github.com/fonero-project/fonero
     ./build.sh
     cd build
     make deploy
