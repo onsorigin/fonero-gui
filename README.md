@@ -159,6 +159,7 @@ More info: http://stackoverflow.com/a/35098040/1683164
     ```
     cd
     wget http://sourceforge.net/projects/boost/files/boost/1.63.0/boost_1_63_0.tar.bz2
+    pacman -S tar
     tar xjf boost_1_63_0.tar.bz2
     cd boost_1_63_0
     ./bootstrap.sh mingw
